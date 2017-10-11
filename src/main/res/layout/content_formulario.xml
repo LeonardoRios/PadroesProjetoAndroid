@@ -1,0 +1,49 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <EditText android:hint="Nome"
+            android:id="@+id/audio_nome"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+
+        <EditText android:hint="Descrição"
+            android:id="@+id/audio_desc"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+
+        <EditText android:hint="URL"
+            android:id="@+id/audio_url"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+
+        <EditText android:hint="Pregador"
+            android:id="@+id/audio_pregador"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+
+        <EditText android:hint="Série"
+            android:id="@+id/audio_serie"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+
+        <DatePicker
+            android:id="@+id/date_picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnsalvar"
+            android:text="Salvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>
